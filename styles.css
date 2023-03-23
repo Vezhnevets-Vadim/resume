@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap');
+body{
+    font-size: 16;
+    font-family: 'Edu NSW ACT Foundation', cursive, sans-serif;
+    font-weight: 500;
+    background: floralwhite;
+}
+
+.avatar{
+width: 100px;
+border-radius: 28px;
+box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info {
+    margin-bottom: 20px;
+}
+
+.container{
+    max-width: 600px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+
+.card{
+    border:1px solid black;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 15px;
+    border: 0px;
+    padding-top: 5px;
+}
+
+.bg-red{
+    background: lightcoral;
+}
+
+.bg-blue{
+    background: skyblue;
+}
+
+a {
+color: rgba(19, 185, 83, 0.808);
+text-decoration: none;
+font-size: 20px;
+}
+
+a:hover {
+    color: brown;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: rgb(231, 13, 195);
+}
+
+a:active {
+    color: blue;
+}
+
+.btn{
+    background: rgb(23, 185, 23);
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+.btn:hover {
+opacity: .8;
+color: brown;
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    margin-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+}
+
+.form h2 {
+    text-align: center;
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+@media (max-width: 250px) {
+    .form-row {
+        display: block;
+    }
+}
+
+.form-row .form-group {
+    display: inline-block;
+    width: 50%;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+}
+
+.form-group input, 
+.form-group textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
